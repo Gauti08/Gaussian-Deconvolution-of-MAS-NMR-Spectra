@@ -73,8 +73,8 @@ def fit_gaussians(x, y, npeaks, n_iter=25, save_dir=None):
     upper_bounds = []
     for _ in range(npeaks):
         lower_bounds += [0, xmin, 0.001 * xrange]
-        upper_bounds += [2 * y_max, xmax, 0.075 * xrange]
-
+        upper_bounds += [2 * y_max, xmax, 0.075 * xrange] #Constrain peak width of gaussian components
+#0.075*xrange implies the maximum peakwidth of gaussian components will be within 7.5% of spectral range
     best_loss = np.inf
     best_popt, best_yfit = None, None
 
