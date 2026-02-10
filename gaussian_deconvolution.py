@@ -3,6 +3,9 @@
 NMR Spectrum Gaussian Deconvolution with Multi-Restart and AIC/BIC Model Selection
 Author: Goutam
 Date: 2025-10-31
+If you happen to use this code in your work, please give proper attribution by citing the
+original article:
+
 """
 
 import numpy as np
