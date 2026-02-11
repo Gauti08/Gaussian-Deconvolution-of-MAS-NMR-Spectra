@@ -3,9 +3,14 @@
 NMR Spectrum Gaussian Deconvolution with Multi-Restart and AIC/BIC Model Selection
 Author: Goutam
 Date: 2025-10-31
+
 If you happen to use this code in your work, please give proper attribution by citing the
 original article:
 
+Tumulu, G. N. et al. Effect of sulfonation density on acid strength in ion exchange resins:
+Insights from solid-state NMR and density functional theory. Molecular Catalysis 593, 115794 (2026).
+https://doi.org/10.1016/j.mcat.2026.115794
+  
 """
 
 import numpy as np
